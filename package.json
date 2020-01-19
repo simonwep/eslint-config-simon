@@ -1,10 +1,18 @@
 {
     "name": "eslint-config-simon",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "main": "lib/base.js",
     "license": "MIT",
     "author": "Simon Reinisch <trash@reinisch.io>",
-    "description": "Flat, Simple, Hackable Color-Picker.",
+    "description": "ESlint config files for my personal projects on github@simonwep.",
+    "homepage": "https://github.com/Simonwep/eslint-config-simon#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Simonwep/eslint-config-simon.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Simonwep/eslint-config-simon/issues"
+    },
     "keywords": [
         "code",
         "react",
