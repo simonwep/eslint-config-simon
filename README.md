@@ -33,7 +33,7 @@ yarn add --dev eslint-config-simon
 
 | Name            | Where to use                                              | Extends              | Source            |
 | ------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | --------------------- |
-| `simon`        | Basic config, can be used in all JavaScript environments.   | `eslint:recommended` | [lib/base](lib/base.js) |
+| `simon`        | Basic config, can be used in all JavaScript environments.   | - | [lib/base](lib/base.js) |
 | `simon/lib/node` | Rules for [nodejs](https://nodejs.org/en/) projects. | `simon` | [lib/node](lib/node.js) |
 | `simon/lib/react` | Rules for [react](https://reactjs.org/) / [preact](https://preactjs.com/) projects. | `simon` | [lib/react](lib/react.js) |
 
