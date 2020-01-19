@@ -1,0 +1,41 @@
+{
+    "name": "eslint-config-simon",
+    "version": "1.0.0",
+    "main": "lib/base.js",
+    "license": "MIT",
+    "author": "Simon Reinisch <trash@reinisch.io>",
+    "description": "Flat, Simple, Hackable Color-Picker.",
+    "keywords": [
+        "code",
+        "react",
+        "preact",
+        "nodejs",
+        "node",
+        "quality",
+        "style",
+        "linter",
+        "jscs",
+        "jshint",
+        "jslint",
+        "eslint",
+        "eslintconfig",
+        "validate",
+        "code style",
+        "strict",
+        "check",
+        "checker",
+        "verify",
+        "enforce",
+        "hint"
+    ],
+    "scripts": {
+        "lint": "eslint ./test/*.js ./lib/*.js --fix",
+        "test": "node test/test.js"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0"
+    },
+    "peerDependencies": {
+        "eslint": "^6.8.0"
+    }
+}
