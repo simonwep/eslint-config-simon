@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://travis-ci.org/weclapp/eslint-config"><img
+  <a href="https://travis-ci.org/Simonwep/eslint-config-simon"><img
      alt="Build Status"
      src="https://img.shields.io/travis/Simonwep/eslint-config-simon.svg?style=popout-square"></a>
   <img alt="Current version"
@@ -39,11 +39,14 @@ yarn add --dev eslint-config-simon
 
 ### Example
 
-> Your .eslintrc file
+> Your .eslintrc file, you probably want to extend eslint:recommended too:
 
 ````json
 {
-    "extends": "simon"
+    "extends": [
+        "eslint:recommended",
+        "simon"
+    ]
 }
 ````
 
