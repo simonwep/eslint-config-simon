@@ -29,6 +29,8 @@ Install via yarn:
 yarn add --dev eslint-config-simon
 ````
 
+> As of `2.x` all ESLint rules are now implemented to simplify maintenance.
+
 ## Available rules
 
 | Name            | Where to use                                              | Extends              | Source            |
