@@ -7,10 +7,10 @@ conf.env.node = true;
 
 // Run linter on repo files
 new ESLint().lintFiles([
-    'lib/base.js',
     'lib/node.js',
     'test/test.js'
 ]).then(res => {
+
     for (const report of res) {
 
         // Assert no errors and warnings were found.
