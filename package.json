@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-simon",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "main": "lib/base.js",
     "license": "MIT",
     "author": "Simon Reinisch <trash@reinisch.io>",
